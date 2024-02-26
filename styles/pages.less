@@ -1,0 +1,171 @@
+.pf2e-av {
+  /* ==================== */
+  /*  Importer            */
+  /* ==================== */
+  &.adventure-importer {
+    figure.adventure-banner {
+      flex: 0 0 100%;
+      margin: 0.5rem 0;
+      img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: 0 30%;
+        border-radius: 5px;
+      }
+    }
+    .adventure-overview {
+      flex: 2;
+      padding-right: 1em;
+      p {
+        font-size: 0.875rem;
+        line-height: 1.25em;
+      }
+    }
+    .adventure-contents {
+      ul {
+        padding: 0;
+        list-style: none;
+        li i {
+          color: var(--color-text-dark-inactive);
+          margin-right: 0.5rem;
+        }
+      }
+    }
+    .import-options {
+      input[type="checkbox"]:checked {
+        -webkit-filter: hue-rotate(240deg);
+      }
+    }
+    .import-controls .form-group label.checkbox {
+      i { color: var(--color-text-dark-inactive); }
+      font-size: var(--font-size-14);
+    }
+    .adventure-footer {
+      flex: 0 0 100%;
+      margin-top: 0.5rem;
+    }
+  }
+  &.journal-sheet:not(.minimized) {
+    min-width: 500px;
+  }
+  section.journal-entry-content, &.journal-entry-page section.window-content, &.adventure-importer section.window-content {
+    color: black;
+    background: url("./assets/parchment-av.jpg") repeat;
+  }
+  section.journal-entry-content {
+    .journal-header {
+      display: none;
+    }
+    .journal-entry-page {
+      clear: both;
+    }
+    .journal-entry-pages {
+      margin: 0;
+    }
+  }
+  div.editable {    
+    margin: unset;   // Removes margin from bottom of page and right of scrollbar
+    div.scrollable {
+      padding: 0;
+      scrollbar-gutter: stable both-edges;
+      div.edit-container {
+        z-index: 5;
+      }
+      header.journal-page-header, header.adventure-header {
+        margin: 0 0 0 -0.35rem;
+        background: url("./assets/border-left.webp"),
+          url("./assets/border-right.webp"),
+          url("./assets/border-top.webp"),
+          url("./assets/border-bottom.webp"),
+          url("./assets/bg-rust-no-pad.webp");
+        background-repeat: no-repeat, no-repeat, repeat-x, repeat-x, repeat-x;
+        background-position: left, right, top, bottom, center;
+        line-height: 5.25rem;
+        border: none;
+        text-align: center;
+        font-family: var(--h1-font);
+        color: var(--av-green-light);
+        letter-spacing: 0.1rem;
+        h1, h2, h3 {
+          border-bottom: none;
+          font-size: 2.5rem;
+        }
+      }
+      section.journal-page-content {
+        padding: 0 1rem; // Restores the balance of page borders. If we actually want to cut off page headers we can restore that by moving this back up to div.scrollable
+        margin: 0.5rem 0;
+      } 
+    }
+  }   
+
+  // Table of contents changes
+  aside.sidebar.flexcol.directory.journal-sidebar {
+    // Size & Structure
+    ol.directory-list {   
+      scrollbar-gutter: stable both-edges;
+      li.directory-item { 
+        // Page titles list appearance
+        border: unset;      
+        &:not(:first-child) {
+          &.level1::before {
+            content: "";
+            background: url(assets/divider.webp) no-repeat;
+            background-size: contain;
+            background-position: center;
+            top: 0;
+            width: 100%;
+            height: 1rem;
+            margin: 0.25rem 0;
+          }
+        }
+        &.level1 span {
+          text-indent: 0rem;
+          font-family: "Good OT Cond Bold";
+          font-size: 1.1rem;
+        }  
+        &.level2 span {
+          text-indent: 0rem;
+          font-family: "Good OT";
+        }
+        &.level3 span {
+          text-indent: 0.5rem;
+          font-family: "Good OT";
+        }
+      }
+    }
+    span.page-title {
+      text-overflow: ellipsis;
+      font-size: 0.9rem;
+    }
+    // Hide page subheading from appearing
+    ol.headings {
+      display: none 
+    }
+
+    // Only when list is expanded
+    &:not(.collapsed) {
+      flex-basis: 16rem;
+      // Hide page numbers
+      span.page-number {
+        color: transparent;
+      }
+      // Use a pointer for the selected page
+      .active {
+        .page-number::before {
+          content: '⮚';
+          color: white;
+          visibility: visible;
+          width: inherit;
+          display: block;
+          position: absolute;
+        }
+      }
+      .active + .active {
+        ::before {
+          content: "";
+        }
+      }
+    }
+  }
+}

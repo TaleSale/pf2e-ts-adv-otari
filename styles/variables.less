@@ -1,0 +1,125 @@
+
+/* Variable Definitions */
+.pf2e-av {
+  --paizo-blue-light: #7c7bab; //The paizo logo light lilac blue
+  --paizo-blue-dark: #171f69; //The paizo logo dark blue
+  --pf2e-red: #5e0000; //Pathfinder Red
+  --pf2e-gold: #c5832b; //Pathfinder Gold
+
+  /* Colour Schema - Abomination Vaults 2022 release */
+  --av-green: #4f6f64; //The default green used in headers
+  --av-green-dark: #25271c; //The deep green used in borders
+  --av-green-light: #d3cea5; //The near-yellow thistle-green used against dark backgrounds, and as backgrounds in menus
+  --cora-blue: #b3bdc6; //A pseudo-violet for the backer on box blocks
+  --cora-blue-dark: #313656; //A light indigo for the font on headers
+  --av-gold: #e9b770; //The light-gold of the AV logo
+  --av-gold-dark: #956321; //The dark gold of the AV logo
+  --av-grey: #858e80; //The light tentacle grey
+  --av-grey-dark: #474d44; //The dark tentacle grey
+  --av-tan: #996747;//The rich tan used in some headers
+  --av-brown: #431c00; //The deep brown used in box text backgrounds
+  --av-white: #ffffff; //Flat white for headers inside embedded text boxes
+  --av-table: #ede3c8; //The darker yellow alternating color on table rows
+  --av-table-light: #f5efe0; //the lighter yellow alternating color on table rows
+
+  /* Holdover colors from default content kit appearance*/
+  /*
+  --color-bright: #671F1D;
+  --color-dark: #481A19;
+  --color-muted: #5A3325;
+
+  --secondary-color-bright: #FFD532;
+  --secondary-color-dark: #8F5000;
+  --secondary-color-muted: #F96C00;
+  */
+  --gradient-start: #2B0B17;
+  --gradient-end: #69164A;
+
+  /* Font Variables */
+  /* Headers */
+  --h1-font: 'Dwarven Axe', serif;
+  --h1-font-size: 2.25rem;
+  --h2-font: 'Good OT Cond Bold', serif;
+  --h2-sidebar: 'Good OT Cond Bold', serif;
+  --h2-sidebar-font-size: 1.4rem;
+  --h2-font-size: 1.6rem;
+  --h3-font: 'Good OT Cond Bold', serif;
+  --h3-font-size: 1.4rem;
+
+  /* Body */
+
+  --body-font-size: 1rem;
+  --main-font: 'Sabon LT', serif;
+  --main-italics-font: 'Sabon LT Italic', serif;
+  --main-bold-font: 'Sabon Lt ', serif;
+  --main-font-size: 1rem;
+
+  /* Narrative Text */
+  --narrative-font: 'Good OT', serif;
+  --narrative-font-size: 1rem;
+
+  /* Title Heading */
+  --heading-title-font: 'Trajan', serif;
+  --heading-title-font-size: 3rem;
+  --heading-title-border-bottom: 5px solid transparent;
+  --heading-title-border-image: url("../artwork/book/title-divider.png") 15 stretch;
+
+  /* Regular Headings */
+  --heading-font: 'Cambria' , serif;
+  --heading-main-font-size: 1.625rem;
+  --heading-secondary-font-size: 1.5rem;
+  --heading-tertiary-font-size: 1.375;
+  --heading-incline-font-size: 1rem;
+  --heading-font-color: #481A19;
+  --heading-border: 2px solid transparent;
+  //--heading-border-image: url("../artwork/book/horizontal-rule.png") 2 stretch;
+
+  /* Box Font Settings */
+  --box-font: 'Ancizar', serif;
+  --box-font-size: 1rem;
+
+  /* ToC Font Settings */
+  --toc-box-heading-font-size: 1.1875rem;
+  --toc-table-font-size: 1rem;
+
+  /* Journal Background Image */
+  //--background-texture: url("../artwork/book/paper-simple.png");
+
+  /* Box Text */
+  --background-texture-box: url("../assets/backgrounds/background-purple.webp");
+  --border-frame-box: url("../assets/borders-dividers/box-text-frame.webp");
+}
+
+/* Fonts: Constructed from AV-2022 Stylings */
+@font-face {
+  font-family: "Dwarven Axe";
+  src: url("./fonts/DwarvenAxe-BB.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Good OT";
+  src: url("./fonts/GoodOT.otf") format('opentype');
+}
+@font-face {
+  font-family: "Good OT Bold";
+  src: url("./fonts/GoodOT-Bold.otf") format('opentype');
+}
+@font-face {
+  font-family: "Good OT Cond Bold";
+  src: url("./fonts/GoodOT-CondBold.otf") format('opentype');
+}
+@font-face {
+  font-family: "Good OT Italic";
+  src: url("./fonts/GoodOT-Italic.otf") format('opentype');
+}
+@font-face {
+  font-family: "Sabon LT";
+  src: url("./fonts/Sabon-LT-Std-Roman.otf") format('opentype');
+}
+@font-face {
+  font-family: "Sabon LT Italic";
+  src: url("./fonts/Sabon-LT-Std-Italic.ttf") format('truetype');
+}
+@font-face {
+  font-family: "Trade Gothic LT";
+  src: url("./fonts/TradeGothic-LT-Std-BdCn.otf") format('opentype');
+}

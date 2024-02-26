@@ -1,0 +1,118 @@
+/* Headers */
+.pf2e-av .journal-page-content {
+
+  p {
+    font-family: var(--main-font);
+    font-size: var(--body-font-size);
+    line-height: 1.45rem;
+    margin: 0 0 0.5rem 0;
+  }
+
+  h1 {
+  font-family: var(--h1-font);
+  font-size: var(--h1-font-size);
+  letter-spacing: 0.1rem;
+    .title {
+      font-family: var(--heading-title-font);
+      font-size: var(--heading-title-font-size);
+      border-bottom: var(--heading-title-border-bottom);
+      border-image: var(--heading-title-border-image);
+      text-align: center;
+    }
+  }
+
+  h2 {
+  font-family: var(--h2-font);
+  font-size: var(--h2-font-size);
+  font-weight: bold;
+  text-transform: uppercase;
+  }
+
+  h3 {
+  font-family: var(--h3-font);
+  font-size: var(--h3-font-size);
+  }
+
+  h4 {
+    font-family: var(--h3-font);
+    font-weight: bold;
+    font-size: var(--h3-font-size);
+    text-transform: capitalize;
+  }
+
+  h1, h2, h3 {
+  text-align: left;
+  border: none;
+  color: var(--av-green);
+  display: block;
+  margin: .15rem 0 0 0.15rem;
+  }
+
+  .av-white {
+  color: var(--av-white);
+  //text-shadow: -1px -1px 0 #767676, 1px -1px 0 #767676, -1px 1px 0 #767676, 1px 1px 0 #767676;
+  }
+
+
+  h2.av-white {
+   color: var(--av-white);
+   //text-shadow: -1px -1px 0 #767676, 1px -1px 0 #767676, -1px 1px 0 #767676, 1px 1px 0 #767676;
+  }
+
+  a.entity-link, a.entity-link.broken, a.content-link, a.inline-roll  {
+    font-weight: bold;
+    font-size: .9rem;
+    padding: 2px;
+    background: var(--av-green);
+    color: var(--av-green-light);
+    margin-right: 1px;
+    border-color: var(--av-green);
+    line-height: .8rem;
+    i {
+      color: var(--av-green-light)
+    }
+  }
+
+  [data-pf2-check]::before, [data-pf2-repost]::before {
+
+    padding: unset;
+    color: var(--av-green-light);
+    margin-left: 2px;
+  }
+  [data-pf2-repost], [data-pf2-check], [data-pf2-check]:not([data-pf2-show-dc=gm]) {
+    font-weight: bold;
+    font-size: .9rem;
+    padding: 4px 2px 2px 2px;
+    background: var(--av-green);
+    color: var(--av-green-light);
+    margin-right: 1px;
+    border-color: var(--av-green);
+    line-height: .8rem;
+  }
+  span {
+    [data-visibility]:is(div,em,h4,p,section,span,strong):not([data-visibility=all]) {
+      background: rgba(0, 0, 0, .25);
+    }
+
+    &.trait {
+      display: inline-block;
+      border-left: 5px solid var(--av-gold);
+      border-right: 5px solid var(--av-gold);
+      background: var(--pf2e-red);
+      color: white;
+      padding: 2px 0 0 0;
+      text-transform: uppercase;
+      font-family: 'Good OT Cond Bold', Serif;
+      max-height: 24px;
+      min-width: 90px;
+      text-align: center;
+
+      &.blue {
+        background: #566193;
+      }
+      &.green {
+        background: #3a7a58;
+      }
+    }
+  }
+}
