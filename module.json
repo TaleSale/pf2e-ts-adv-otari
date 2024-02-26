@@ -2,7 +2,7 @@
   "id": "pf2e-ts-adv-abomination-vaults",
   "title": "PF2E-TS-ADV (Abomination Vaults)",
   "description": "Дополнение для АП Зловещие Катакомбы",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "relationships": {
 		"systems": [
 			{
@@ -46,7 +46,7 @@
       "pf2e-art": "modules/pf2e-ts-adv-abomination-vaults/image-mapping.json"
     }
   },
-  "url": "",
-  "manifest": "",
-  "download": ""
+  "url": "https://github.com/TaleSale/pf2e-ts-adv-abomination-vaults",
+  "manifest": "https://raw.githubusercontent.com/TaleSale/pf2e-ts-adv-abomination-vault/main/module.json",
+  "download": "https://github.com/TaleSale/pf2e-ts-adv-abomination-vault/archive/refs/heads/main.zip"
 }
