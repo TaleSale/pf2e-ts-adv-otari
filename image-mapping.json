@@ -4,6 +4,23 @@
       "actor": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-portraits/ch-08/urthagal.webp",
       "token": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-tokens/ch-08/urthagal.webp"
     },
+    
+    "gUihlg28MEloIqE3": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/aberrant/monstrous/will-o-wisp.webp",
+      "token": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-tokens/ch-04/will-o-wisp.webp"
+    },
+    "bfuIEdKBj9bhuOft": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/aberrant/monstrous/will-o-wisp.webp",
+      "token": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-tokens/ch-04/will-o-wisp.webp"
+    },
+    "NXdpFypPPmRwYBT1": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/aberrant/monstrous/will-o-wisp.webp",
+      "token": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-tokens/ch-04/will-o-wisp.webp"
+    },
+    "YXF12ssz8tEh2YUe": {
+      "actor": "modules/pf2e-ts-adv/art_token/portraits/aberrant/monstrous/will-o-wisp.webp",
+      "token": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-tokens/ch-04/will-o-wisp.webp"
+    },
     "vS1YISLmSnkNotkL": {
       "actor": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-portraits/ch-06/seugathi-researcher.webp",
       "token": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-tokens/ch-06/seugathi-researcher.webp"
@@ -193,6 +210,10 @@
       "token": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-tokens/ch-07/gibtanius.webp"
     },
     "BJYrYqkV7PkXgSfk": {
+      "actor": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-portraits/ch-05/gibtas-bounder.webp",
+      "token": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-tokens/ch-05/gibtas-bounder.webp"
+    },
+    "3F3fPq5hFbej40T2": {
       "actor": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-portraits/ch-05/gibtas-bounder.webp",
       "token": "modules/pf2e-ts-adv-abomination-vaults/assets/bestiary-tokens/ch-05/gibtas-bounder.webp"
     },
