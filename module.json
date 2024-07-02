@@ -1,23 +1,23 @@
 {
-  "id": "pf2e-ts-adv-abomination-vaults",
-  "title": "PF2E-TS-ADV (Abomination Vaults)",
-  "description": "Дополнение для АП Зловещие Катакомбы",
-  "version": "1.0.6",
+  "id": "pf2e-ts-adv-otari",
+  "title": "PF2E-TS-ADV (Отари)",
+  "description": "Дополнение для Неприятности под Отари, Неприятности в Отари и АП Зловещие Катакомбы",
+  "version": "2.0.0",
   "relationships": {
 		"systems": [
 			{
 				"id": "pf2e",
 				"type": "system",
 				"compatibility": {
-					"minimum": "5.13.0"
+					"minimum": "6.0.1"
 				}
 			}
 		]
   },
   "compatibility": {
-    "minimum": "11",
-    "verified": "11",
-    "maximum": "11"
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
   },
   "authors": [
     {
@@ -27,25 +27,7 @@
     }
   ],
   "type": "module",
-  "esmodules": [
-    "js/pf2e-av.mjs"
-  ],
-  "styles": [
-    "styles/pf2e-av.css"
-  ],
-  "media": [
-    {
-        "type": "setup",
-        "caption": "Abomination Vaults",
-        "thumbnail": "/modules/pf2e-ts-adv-abomination-vaults/assets/thumbnails/av-thumb.webp"
-    }
-  ],
   "packs": [],
-  "flags": {
-    "pf2e-ts-adv-abomination-vaults": {
-      "pf2e-art": "modules/pf2e-ts-adv-abomination-vaults/image-mapping.json"
-    }
-  },
   "url": "https://github.com/TaleSale/pf2e-ts-adv-abomination-vaults",
   "manifest": "https://raw.githubusercontent.com/TaleSale/pf2e-ts-adv-abomination-vaults/main/module.json",
   "download": "https://github.com/TaleSale/pf2e-ts-adv-abomination-vaults/archive/refs/heads/main.zip"
