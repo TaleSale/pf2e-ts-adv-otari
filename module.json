@@ -2,17 +2,17 @@
   "id": "pf2e-ts-adv-otari",
   "title": "PF2E-TS-ADV (Отари)",
   "description": "Дополнение для Неприятности под Отари, Неприятности в Отари и АП Зловещие Катакомбы",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "relationships": {
-		"systems": [
-			{
-				"id": "pf2e",
-				"type": "system",
-				"compatibility": {
-					"minimum": "6.0.1"
-				}
-			}
-		]
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.1"
+        }
+      }
+    ]
   },
   "compatibility": {
     "minimum": "12",
@@ -26,8 +26,6 @@
       "flags": {}
     }
   ],
-  "type": "module",
-  "packs": [],
   "url": "https://github.com/TaleSale/pf2e-ts-adv-abomination-vaults",
   "manifest": "https://raw.githubusercontent.com/TaleSale/pf2e-ts-adv-abomination-vaults/main/module.json",
   "download": "https://github.com/TaleSale/pf2e-ts-adv-abomination-vaults/archive/refs/heads/main.zip"
