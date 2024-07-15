@@ -2,7 +2,7 @@
   "id": "pf2e-ts-adv-otari",
   "title": "PF2E-TS-ADV (Отари)",
   "description": "Дополнение для Неприятности под Отари, Неприятности в Отари и АП Зловещие Катакомбы",
-  "version": "2.0.2",
+  "version": "2.0.2.1",
   "relationships": {
     "systems": [
       {
